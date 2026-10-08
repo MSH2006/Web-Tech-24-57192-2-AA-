@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Library Member Profile & Registration</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://www.google.com/imgres?q=favicon&imgurl=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F524883b7e4b03fcb7c64e24c%2F1685041480038-AWYM7XXSYNHG53PL43L6%2FSquarespace%2BFavicon.jpg%3Fformat%3D1500w&imgrefurl=https%3A%2F%2Fwww.collaborada.com%2Fblog%2Ffavicons&docid=lDO-odES8eALYM&tbnid=QLwruCoxsN_w6M&vet=12ahUKEwjfsOHvmamXAxVpieEIHU9lKOYQnPAOegUIogEQAA..i&w=1500&h=1500&hcb=2&ved=2ahUKEwjfsOHvmamXAxVpieEIHU9lKOYQnPAOegUIogEQAA" />
+  </head>
+
+  <body>
+    <!-- Headings -->
+    <h1>Library Member Profile</h1>
+
+    <!-- Paragraph -->
+    <p>Welcome to the library management portal.</p>
+
+    <!-- Bold -->
+    <p><b>Member Directory</b></p>
+
+    <!-- Bold + Italic -->
+    <p><b><i>Active Members List</i></b></p>
+
+    <!-- Block and Inline -->
+    <div>Member Profile Section</div>
+    <div>Registration Section</div>
+
+    <span>Library Portal</span>
+    <span>Membership System</span>
+    <br><br>
+
+    <!-- Anchor -->
+    <a href="https://portal.aiub.edu" target="_blank">AIUB Portal</a>
+    <br><br>
+
+    <table border="1">
+      <tr>
+        <th>Member ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Image</th>
+      </tr>
+
+      <tr>
+        <td>24-57192-2</td>
+        <td>Md. Sabbir Hossain</td>
+        <td>mdsabbirhossain2006@gmail.com</td>
+        <td>
+          <img
+            src="https://fastly.picsum.photos/id/13/2500/1667.jpg?hmac=SoX9UoHhN8HyklRA4A3vcCWJMVtiBXUg0W4ljWTor7s"
+            width="100px"
+            height="60px"
+            alt="Member Image"
+          />
+        </td>
+      </tr>
+    </table>
+
+    <br>
+
+    <!-- Registration Form -->
+    <h2>Membership Registration Form</h2>
+
+    <form action="" method="get">
+      <table>
+        <tr>
+          <td><label for="name">Name</label></td>
+          <td>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="password">Password</label></td>
+          <td>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="age">Age</label></td>
+          <td>
+            <input type="number" id="age" name="age" placeholder="Enter your age" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="dob">DOB</label></td>
+          <td>
+            <input type="date" id="dob" name="dob" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="membership">Membership Type</label></td>
+          <td>
+            <select id="membership" name="membership">
+              <option value="student">Student</option>
+              <option value="regular">Regular</option>
+              <option value="premium">Premium</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="file">File</label></td>
+          <td>
+            <input type="file" id="file" name="file" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="address">Address</label></td>
+          <td>
+            <textarea id="address" name="address" rows="4" cols="30"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Terms</td>
+          <td>
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms">I agree to the terms</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>
+            <button type="submit">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <p>
+      Already have an account? go to
+      <a href="https://portal.aiub.edu">Sign In</a>
+    </p>
+  </body>
+</html>
