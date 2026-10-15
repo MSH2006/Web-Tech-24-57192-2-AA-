@@ -1,0 +1,49 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: red;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+#name {
+    color: blue;
+}
+
+.center {
+    color: darkgreen;
+}
+
+* {
+    font-family: 'Segoe UI';
+}
+
+h1, p {
+    color: brown;
+}
+
+div p {
+    color: blue;
+}
+
+div > p {
+    color: red;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.box {
+    width: 320px;
+    padding: 20px;
+    border: 5px solid gray;
+    margin: 0px;
+}
